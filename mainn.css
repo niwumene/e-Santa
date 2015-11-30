@@ -1,0 +1,67 @@
+#social-buttons button {
+color: white;
+}
+.btn-twitter {
+background-color: #00acee;
+border-color: #009ad5;
+font-size: 30px;
+}
+.btn-facebook {
+ background-color: #4868ac; 
+ border-color: #314776;
+ font-size: 30px;
+}
+.btn-pinterest {
+	background-color: #b62f26; 
+	border-color: #b62f26;
+	font-size: 30px;
+}
+.jumbotron{
+min-height: 1000px;
+background-image: url('http://www.hotel.de/m3dia/wp-content/uploads/2011/12/Christmas-Market-Chicago-Christmas-Spirit.jpg' );
+background-size: cover;
+background-attachment: fixed;	
+}
+.mission{ 
+background-color: rgba(32,35,41,0.9);
+color: #ddd 
+}
+.img-circle {width: 900px;
+height: 600px;
+}
+.h2 span { color: white;
+	font: bold 24px/45px Helvectica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0,0,0); 
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+}
+.quote{font-size: 60px;
+font-family:"Comic Sans MS", cursive, sans-serif;
+color: white;
+}
+.meet{
+	font-size: 60px;
+	font-family: Papyrus, fantasy;
+	color: white;
+}
+.bring {font-size:60px; 
+font-family: Papyrus, fantasy; 
+color: white; 
+}
+.kat{font-size: 30px;
+	color: white;
+}
+.find{font-size: 35px}
+.btn-success{font-size: 30px}
+.next{font-size: 30px;
+color: black;}
+.back{font-size: 30px;
+color: black}
+.e-Santa{ font-size: 300px;
+color: #c0392b;
+text-shadow: -8px 0 white, 0 8px white, 8px 0 white, 0 -8px white;
+font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+.body{ background-color:#c0392b;}
+

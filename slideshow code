@@ -1,0 +1,35 @@
+<script language= 'JavaScript'>
+var num=1
+img1=new Image()
+img1.src="http://3.bp.blogspot.com/-SRgEPpz6rhg/UjwJBUj6gvI/AAAAAAAABpw/_Wd1lIVQ-zg/s1600/FOURTY+TWO.jpg"   
+img2= new Image()
+img2.src=" http://pbs.twimg.com/media/A9bEpl8CUAAN0vk.jpg "
+img3= new Image()
+img3.src= "http://www.visitbritainblog.com/wp-content/uploads/2012/12/VB24520909-rs.jpg "
+img4= new Image()
+img4.src="https://ohsweetlife.files.wordpress.com/2014/06/london-camden-market-2.jpg"
+
+function slideshowUp()
+{
+  num=num+1
+  if (num==5)
+    {num=1}
+  document.mypic.src=eval("img"+num+".src")
+}
+
+function slideshowBack()
+{num=num-1
+if (num==0)
+  {num=4}
+document.mypic.src=eval('img'+num+".src")
+}
+
+  </script>
+
+<center>
+  <img src= "http://3.bp.blogspot.com/-SRgEPpz6rhg/UjwJBUj6gvI/AAAAAAAABpw/_Wd1lIVQ-zg/s1600/FOURTY+TWO.jpg" name="mypic" border=0 height="300" width="200">
+  <p>
+    
+    <a href= "JavaScript:slideshowBack()" class="back"> Back</a>
+    <a href= "JavaScript:slideshowUp()" class="next"> Next</a>
+</p>   
